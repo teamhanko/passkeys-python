@@ -2,6 +2,7 @@
 
 This repository demonstrates how to add passkey login functionality to your Flask backend and React frontend using the Hanko Passkey API. Passkey authentication is a secure and user-friendly alternative to traditional password-based authentication, providing a seamless login experience for users.
 
+![Passkey demo](/passkey.gif)
 
 ## Prerequisites
 
@@ -84,5 +85,7 @@ Feel free to reach out to us on [Discord](https://hanko.io/community) if you get
 ## License
 
 This project is licensed under the MIT License.
+
+
 
 
