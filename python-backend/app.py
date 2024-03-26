@@ -56,7 +56,6 @@ def start_registration():
 
     user_id = session['user_id']
     user_email = session['email']
-    # print(user_id, user_email)
 
     payload = {
         "user_id": user_id,
@@ -65,9 +64,6 @@ def start_registration():
 
     response = requests.post(f"{baseUrl}/registration/initialize", headers=headers, json=payload)
     creationOptions = response.json()
-    # print(creationOptions)
-
-
     return jsonify(creationOptions)
 
 @app.route("/passkey/finalize-registration", methods=["POST"])
