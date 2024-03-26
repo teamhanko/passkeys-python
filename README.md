@@ -76,7 +76,7 @@ flask run
 
 ## Usage
 
-Once the frontend and backend servers are running, you can access the application by navigating to `http://localhost:5173` in your browser. The application will guide you through the passkey authentication process, allowing you to securely log in and access protected routes.
+Once the frontend and backend servers are running, you can access the application by navigating to `http://localhost:5173` in your browser. The application will guide you through the passkey authentication process.
 
 ## Support
 
