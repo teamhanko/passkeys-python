@@ -17,13 +17,13 @@ Before you begin, ensure you have the following:
 
 ## Getting Started
 
-1. Clone the Repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/teamhanko/passkeys-python.git
 ```
 
-2. Set Up Environment Variables
+2. Set up environment variables
 
 Create a `.env` file in the `python-backend` directory and add the following environment variables:
 
@@ -76,13 +76,13 @@ flask run --port=8000
 
 ## Usage
 
-1. Start the Application:
+1. Start the application:
    
    * Ensure that both the frontend and backend servers are running.
 
    * Access the application by navigating to http://localhost:5173 in your web browser.
   
-2. Log In with a Pre-configured User: Navigate to login page, login with one of the pre-configured users.
+2. Log in with a pre-configured user: Navigate to login page, login with one of the pre-configured users.
 
 ```json
     {
@@ -104,10 +104,10 @@ flask run --port=8000
 
 3. Register a passkey:
    
-   * After logging in, click on 'Register Passkey' button to register a passkey for the logged-in user.
+   * After logging in, register a passkey for the logged-in user.
 
 
-4. Log Out:
+4. Log out:
    * After the passkey registration is successful, log out of the application.
 
 5. Login with with a passkey
