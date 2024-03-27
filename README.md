@@ -13,7 +13,7 @@ Before you begin, ensure you have the following:
 - Hanko Passkey API key and tenant ID from [Hanko Cloud](https://cloud.hanko.io/)
 
 > **Note:**
-> You'll need to create a Passkey Project on Hanko Cloud with the App URL `http://localhost:5173`. See our docs to learn how to setup a [Passkey Project](https://hanko.mintlify.app/passkey-api/setup-passkey-project).
+> You'll need to create a Passkey Project on Hanko Cloud with the App URL `http://localhost:5173`. See our docs to learn how to setup a [passkey project](https://hanko.mintlify.app/passkey-api/setup-passkey-project).
 
 ## Getting Started
 
@@ -112,7 +112,7 @@ flask run --port=8000
 
 5. Login with with a passkey
 
-   * On the login page, choose sign in with a passkey option.
+   * On the login page, choose sign in with a passkey option to authenticate using a passkey.
 
 ## Support
 
