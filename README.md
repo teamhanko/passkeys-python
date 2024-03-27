@@ -31,7 +31,8 @@ PASSKEY_TENANT_ID=your-hanko-passkey-tenant-id
 
 Replace `your-hanko-passkey-api-key` and `your-hanko-passkey-tenant-id` with your actual Hanko Passkey API key and tenant ID.
 
-1. Install Dependencies
+> **Note:**
+> You'll need to create a Passkey Project on Hanko Cloud with the App URL `http://localhost:5173`. See our docs to learn how to setup a [Passkey Project](https://hanko.mintlify.app/passkey-api/setup-passkey-project).
 
 #### Frontend
 
