@@ -12,6 +12,9 @@ Before you begin, ensure you have the following:
 - Node.js installed (version 20.0.0 or later)
 - Hanko Passkey API key and tenant ID from [Hanko Cloud](https://cloud.hanko.io/)
 
+> **Note:**
+> You'll need to create a Passkey Project on Hanko Cloud with the App URL `http://localhost:5173`. See our docs to learn how to setup a [Passkey Project](https://hanko.mintlify.app/passkey-api/setup-passkey-project).
+
 ## Getting Started
 
 1. Clone the Repository
@@ -30,9 +33,6 @@ PASSKEY_TENANT_ID=your-hanko-passkey-tenant-id
 ```
 
 Replace `your-hanko-passkey-api-key` and `your-hanko-passkey-tenant-id` with your actual Hanko Passkey API key and tenant ID.
-
-> **Note:**
-> You'll need to create a Passkey Project on Hanko Cloud with the App URL `http://localhost:5173`. See our docs to learn how to setup a [Passkey Project](https://hanko.mintlify.app/passkey-api/setup-passkey-project).
 
 #### Frontend
 
@@ -82,7 +82,7 @@ flask run --port=8000
 
    * Access the application by navigating to http://localhost:5173 in your web browser.
   
-2. Log In with a Pre-configured User: Naviagate to login page, login with one of the pre-configured users.
+2. Log In with a Pre-configured User: Navigate to login page, login with one of the pre-configured users.
 
 ```json
     {
