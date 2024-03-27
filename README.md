@@ -84,7 +84,6 @@ flask run --port=8000
 2. Log In with a Pre-configured User: Naviagate to login page, login with one of the pre-configured users.
 
 ```json
-users = [
     {
         "id": "b3fbbdbd-6bb5-4558-9055-3b54a9469629",
         "email": "john.doe@example.com",
@@ -99,21 +98,20 @@ users = [
         "id": "55c81b3d-1e7d-4a72-a6b0-ad946e0c0965",
         "email": "ab@g.com",
         "password": "123",
-    },
-]
+    }
 ```
 
-3. Register a Passkey:
+3. Register a passkey:
    
-After logging in, click on 'Register Passkey' button to register a passkey for the logged-in user.
+   * After logging in, click on 'Register Passkey' button to register a passkey for the logged-in user.
 
 
 4. Log Out:
-After the passkey registration is successful, log out of the application.
+   * After the passkey registration is successful, log out of the application.
 
 5. Login with with a passkey
 
-On the login page, choose sign in with a passkey option.
+   * On the login page, choose sign in with a passkey option.
 
 ## Support
 
